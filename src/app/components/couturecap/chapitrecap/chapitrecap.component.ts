@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChapitrecapComponent implements OnInit {
 
-  constructor() { }
+  rep="";
 
-  ngOnInit() {
+
+  constructor() { }
+  getCoupeCouture(){
+    this.rep="coupeCouture";
+  }
+  getDessinDeMode(){
+    this.rep="dessinDeMode";
+  }
+  getArtisanat(){
+    this.rep="artisanat";
+  }  ngOnInit() {
   }
 
 }

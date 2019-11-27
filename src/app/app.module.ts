@@ -31,6 +31,7 @@ import { ChapitrecapComponent } from './components/couturecap/chapitrecap/chapit
     CoursbepComponent,
     CourscapComponent,
     ChapitrecapComponent,
+   
   ],
   imports: [
     BrowserModule,

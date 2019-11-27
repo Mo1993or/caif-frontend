@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chapitrebep.component.css']
 })
 export class ChapitrebepComponent implements OnInit {
+  rep="";
 
   constructor() { }
-
-  ngOnInit() {
+  getCuisine(){
+    this.rep="cuisine";
+  }
+  getPatisserie(){
+    this.rep="patisserie";
+  }
+  getServiceBar(){
+    this.rep="service";
+  }  ngOnInit() {
   }
 
 }

@@ -6,17 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chapitre.component.css']
 })
 export class ChapitreComponent implements OnInit {
-testcours1;
+rep="";
 
   constructor() { }
-  getCours(){
-    this.testcours1="ok";
+  getCuisine(){
+    this.rep="cuisine";
   }
-  getCours1(){
-    this.testcours1="ok1";
+  getPatisserie(){
+    this.rep="patisserie";
   }
-  getCours2(){
-    this.testcours1="ok2";
+  getServiceBar(){
+    this.rep="service";
   }
   ngOnInit() {
   }

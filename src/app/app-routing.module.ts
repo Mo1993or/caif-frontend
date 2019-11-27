@@ -24,7 +24,7 @@ const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "couturecap", component: CouturecapComponent },
   { path: "hotellericap", component: HotellericapComponent },
-  { path: "hotelleribep", component: HotelleribepComponent }
+  { path: "hotelleribep", component: HotelleribepComponent },
 ];
 
 @NgModule({
